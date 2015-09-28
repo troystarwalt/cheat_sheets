@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="css/style.css">
+
+- Fork repository.
+- Clone the forked repository.
+- Change Files.
+- Add Files
+- Commit.
+- Push to Forked Repository.
+- Pull Request to Other Person.
+- They Accept Pull Request, Merge Files.
+
+<!-- Scripting exercises:
+
+For loop
+
+Create an array filled with two arrays.
+
+Inside of each of these arrays should be several strings
+
+Use two loops to display the information (strings) inside of each of these arrays in the console
+While loop
+
+Create a while loop that “sings” the classic song “99 Bottles of Root Beer on the Wall”. The code it outputs to the console should look similar to this:
+
+“99 bottles of root beer on the wall, 99 bottles of root beer...take one down, pass it around 98 bottles of root beer on the wall, 98 bottles of root beer on the wall, 98 bottles of root beer...take one down, pass it around 97 bottles of root beer on the wall,” etc., all the way to 0 bottles.
+
+Variable Scope 
+
+Create a script that exemplifies global scope and local scope by logging a variable to the console.
+
+Functions
+
+Check if a string is a palindrome
+
+Accepts a string as an argument and checks it for vowels
+
+When your name is entered in a textbox and the user presses a button, an alert is displayed.
+Write a program to validate a date input. Given a date (06/15/1990, for instance), make sure that it’s in mm/dd/yyyy format.
+
+Write a program to find the most frequent item in an array
+
+Ten Simple Javascript Exercises
+
+Define a function max() that takes two numbers as arguments and returns the largest of them. Use the if-then-else construct available in Javascript.
+
+Define a function maxOfThree() that takes three numbers as arguments and returns the largest of them.
+
+Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
+
+Write a function translate() that will translate a text into "rövarspråket". That is, double every consonant and place an occurrence of "o" in between. For example, translate("this is fun") should return the string "tothohisos isos fofunon".
+
+Define a function sum() and a function multiply() that sums and multiplies (respectively) all the numbers in an array of numbers. For example, sum([1,2,3,4]) should return 10, and multiply([1,2,3,4]) should return 24.
+
+Define a function reverse() that computes the reversal of a string. For example, reverse("jag testar") should return the string "ratset gaj".
+
+Represent a small bilingual lexicon as a Javascript object in the following fashion {"merry":"god", "christmas":"jul", "and":"och", "happy":gott", "new":"nytt", "year":"år"} and use it to translate your Christmas cards from English into Swedish.
+
+Write a function findLongestWord() that takes an array of words and returns the length of the longest one.
+
+Write a function filterLongWords() that takes an array of words and an integer i and returns the array of words that are longer than i.
+
+Write a function charFreq() that takes a string and builds a frequency listing of the characters contained in it. Represent the frequency listing as a Javascript object. Try it with something like charFreq("abbabcbdbabdbdbabababcbcbab"). -->
+
+</head>
+<body>
+<div>
+</div>
+
+<script type="text/javascript">
+//Three conditional statements
+// banana>apple
+// && banana>carrot
+
+// apple>banana
+// && apple>carrot
+
+// carrot > banana
+// && carrot>apple
+
+// true == 1 true
+// true ==== 1 false
+
+// false == 0	true
+// false ===1 false
+
+
+
+// maxOfThree
+	function maxOfThree(apple, banana, carrot){
+		
+		if (apple>banana && apple > carrot){
+			return apple;
+		}
+		if (banana > apple && banana > carrot){
+			return banana;
+		}
+		if (carrot > apple && carrot > banana){
+			return carrot;
+		}
+
+	}
+
+	console.log(maxOfThree(1,2,3))
+	//expets 3
+
+	console.log(maxOfThree(15,7,6))
+	//expects 15 (first)
+
+	console.log(maxOfThree(1,6,5))
+	//expects 6
+
+	//end maxOfThree
+
+</script>
+</body>
+</html>
